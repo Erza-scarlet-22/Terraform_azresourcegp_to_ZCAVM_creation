@@ -1,0 +1,24 @@
+client_id = "e9e686f1-45f3-4f14-9807-a847dfea2892"
+client_secret = "oHX8Q~2qL8BfWIeJwyUOJcSSoIaUZJz99fX~fa2h"
+tenant_id = "c5e27dfd-701b-4853-b117-7a5420d1d05b"
+subscription_id = "8b211a8c-9d7f-43af-947e-84eb3ef00e8d"
+rg_name = "rg-sungard-dev-001"
+rg_location = "East US"
+storage_name = "sungardstorage24ue34f5"
+zca_vmname = "sungard-zca-002"
+admin_username = "azureuser"
+admin_password = "Independent12#"
+subnet1_adress_prefix = ["10.20.0.0/24"]
+subnet2_adress_prefix = ["10.20.1.0/24"]
+vnet_address_space = ["10.20.0.0/16"]
+virtual_network_name = "sungardg_vnet"
+subnet1_name = "sgsubnet1"
+subnet2_name = "sgsubnet2"
+#public_ip_name = "sungard_pip_001"
+ip_config_name = "Sungard_ipconfig_002"
+nsg_name = "Sungard_nsg_002"
+nic_name = "sungard_nic_002"
+vm_size = "Standard_DS3_v2"
+tags = {
+  "customer" = "A"
+}
